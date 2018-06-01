@@ -1,0 +1,23 @@
+{
+  "name": "dj-san-cli",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "dj-san-cli": "dj-build.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dingjia",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "download-git-repo": "^1.0.2",
+    "inquirer": "^5.2.0",
+    "ora": "^2.1.0"
+  },
+  "_from": "dj-san-cli@1.0.3",
+  "_resolved": "https://registry.npmjs.org/dj-san-cli/-/dj-san-cli-1.0.3.tgz"
+}
