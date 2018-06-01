@@ -34,7 +34,7 @@ const portQuestion = {
   type: 'input',
   message: `server port: `,
   name: 'port',
-  default: '3131'
+  default: '8031'
 };
 
 if (program.init) {
@@ -82,5 +82,4 @@ if (program.init) {
       }
     })
   });
-}
 }
