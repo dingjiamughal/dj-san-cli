@@ -44,7 +44,7 @@ if (program.init) {
     versionQuestion,
     portQuestion,
   ]).then(function (answers) {
-    const spinner = ora('downloading "dj-san-cli" from github').start();
+    const spinner = ora('download "dj-san-cli"').start();
     download('dingjiamughal/dj-san-tpl', answers.name, function (err) {
       if (!err) {
         spinner.clear()
